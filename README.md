@@ -1,4 +1,5 @@
 🐾 PawProtect Foundation
+
 Protecting Every Paw, Every Day 🐶🐱
 
 PawProtect Foundation is a non-profit organization dedicated to rescuing, rehabilitating, and rehoming animals in need. Our mission is to provide medical care, safe shelter, and loving homes for every animal we rescue.
