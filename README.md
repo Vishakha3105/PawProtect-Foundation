@@ -20,6 +20,7 @@ bash
 Copy
 Edit
 git clone https://github.com/Vishakha3105/PawProtect-Foundation.git
+
 Open PawProtectNGO.html in your browser to view the site.
 
 🤲 How to Contribute
@@ -31,6 +32,7 @@ Submit a pull request
 
 🌍 Live Website
 Once deployed via GitHub Pages, the site will be available at:
+
 https://Vishakha3105.github.io/PawProtect-Foundation/
 
 📧 Contact
