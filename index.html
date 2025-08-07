@@ -24,7 +24,6 @@
             padding: 0 20px;
         }
 
-        /* Header */
         header {
             background: linear-gradient(135deg, #2c5530, #4a7c59);
             color: white;
@@ -65,7 +64,6 @@
             color: #a8d5ba;
         }
 
-        /* Main Content */
         main {
             margin-top: 80px;
         }
@@ -80,7 +78,6 @@
             display: block;
         }
 
-        /* Home Section */
         .hero {
             background: linear-gradient(rgba(44, 85, 48, 0.7), rgba(74, 124, 89, 0.7)), 
                         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><pattern id="animals" patternUnits="userSpaceOnUse" width="200" height="200"><rect width="200" height="200" fill="%234a7c59"/><g fill="%2368a16f" opacity="0.3"><path d="M50 80c-5 0-10 5-10 10v20c0 5 5 10 10 10h10v15c0 3 2 5 5 5s5-2 5-5v-15h10c5 0 10-5 10-10V90c0-5-5-10-10-10H50zm-5 15c0-3 2-5 5-5h20c3 0 5 2 5 5v10c0 3-2 5-5 5H50c-3 0-5-2-5-5V95z"/><circle cx="55" cy="100" r="2"/><circle cx="75" cy="100" r="2"/><path d="M60 105c2 2 8 2 10 0" stroke="%2368a16f" stroke-width="1" fill="none"/></g><g fill="%2368a16f" opacity="0.4" transform="translate(120,40)"><ellipse cx="15" cy="20" rx="12" ry="8"/><ellipse cx="15" cy="35" rx="8" ry="12"/><circle cx="12" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M10 25c3-2 7-2 10 0" stroke="%2368a16f" stroke-width="1" fill="none"/><ellipse cx="8" cy="15" rx="3" ry="5"/><ellipse cx="22" cy="15" rx="3" ry="5"/><ellipse cx="15" cy="50" rx="3" ry="6"/></g><g fill="%2368a16f" opacity="0.25" transform="translate(30,140)"><path d="M20 10c8 0 15 7 15 15v10c0 8-7 15-15 15s-15-7-15-15V25c0-8 7-15 15-15z"/><circle cx="15" cy="22" r="2"/><circle cx="25" cy="22" r="2"/><path d="M15 30c3 2 7 2 10 0" stroke="%234a7c59" stroke-width="2" fill="none"/><ellipse cx="8" cy="18" rx="4" ry="6"/><ellipse cx="32" cy="18" rx="4" ry="6"/></g></pattern></defs><rect width="1200" height="800" fill="url(%23animals)"/><g fill="%2368a16f" opacity="0.15"><path d="M100 200c20-10 40-10 60 0 15 8 25 25 25 40 0 20-15 35-35 35-15 0-30-10-35-25-8-20 0-40 15-50z" transform="rotate(15 130 235)"/><circle cx="115" cy="220" r="3"/><circle cx="145" cy="220" r="3"/><path d="M120 240c8-5 17-5 25 0" stroke="%2368a16f" stroke-width="2" fill="none"/></g><g fill="%2368a16f" opacity="0.2"><ellipse cx="800" cy="300" rx="40" ry="25"/><ellipse cx="800" cy="340" rx="25" ry="35"/><circle cx="785" cy="290" r="4"/><circle cx="815" cy="290" r="4"/><path d="M790 310c10-8 20-8 30 0" stroke="%2368a16f" stroke-width="2" fill="none"/><ellipse cx="770" cy="280" rx="8" ry="15"/><ellipse cx="830" cy="280" rx="8" ry="15"/></g><g fill="%2368a16f" opacity="0.18"><path d="M1000 150c25 0 45 20 45 45v15c0 25-20 45-45 45s-45-20-45-45v-15c0-25 20-45 45-45z"/><circle cx="985" cy="170" r="3"/><circle cx="1015" cy="170" r="3"/><path d="M985 185c10 5 20 5 30 0" stroke="%234a7c59" stroke-width="2" fill="none"/><ellipse cx="970" cy="160" rx="6" ry="12"/><ellipse cx="1030" cy="160" rx="6" ry="12"/></g></svg>');
@@ -173,7 +170,6 @@
             font-size: 1.3rem;
         }
 
-        /* About Section */
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -226,7 +222,6 @@
             display: block;
         }
 
-        /* Volunteer Form */
         .form-container {
             max-width: 600px;
             margin: 2rem auto;
@@ -308,7 +303,6 @@
             box-shadow: 0 5px 15px rgba(74, 124, 89, 0.3);
         }
 
-        /* Footer */
         footer {
             background: #2c5530;
             color: white;
@@ -317,7 +311,6 @@
             margin-top: 4rem;
         }
 
-        /* Mobile Responsiveness */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
@@ -345,7 +338,6 @@
             }
         }
 
-        /* Smooth scrolling effect */
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
@@ -375,7 +367,6 @@
     </header>
 
     <main>
-        <!-- Home Section -->
         <section id="home" class="section active">
             <div class="hero">
                 <div class="container">
@@ -406,7 +397,6 @@
             </div>
         </section>
 
-        <!-- About Us Section -->
         <section id="about" class="section">
             <div class="container">
                 <div class="about-content">
@@ -442,7 +432,6 @@
             </div>
         </section>
 
-        <!-- Volunteer Form Section -->
         <section id="volunteer" class="section">
             <div class="container">
                 <div class="form-container fade-in">
@@ -540,21 +529,16 @@
     </footer>
 
     <script>
-        // Navigation functionality
         function showSection(sectionName) {
-            // Hide all sections
             const sections = document.querySelectorAll('.section');
             sections.forEach(section => {
                 section.classList.remove('active');
             });
             
-            // Show selected section
             document.getElementById(sectionName).classList.add('active');
             
-            // Scroll to top
             window.scrollTo({ top: 0, behavior: 'smooth' });
             
-            // Trigger fade-in animations
             setTimeout(() => {
                 const elements = document.querySelectorAll(`#${sectionName} .fade-in`);
                 elements.forEach((el, index) => {
@@ -565,18 +549,15 @@
             }, 100);
         }
 
-        // Form submission handling
         document.getElementById('volunteerForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            // Get form data
             const formData = new FormData(this);
             const interests = [];
             document.querySelectorAll('input[name="interests"]:checked').forEach(checkbox => {
                 interests.push(checkbox.value);
             });
             
-            // Simple validation
             const requiredFields = ['fullName', 'email', 'phone', 'motivation'];
             let isValid = true;
             
@@ -591,7 +572,6 @@
             });
             
             if (isValid) {
-                // Simulate form submission
                 alert('Thank you for your interest in volunteering with PawProtect Foundation! We will review your application and contact you within 3-5 business days.');
                 this.reset();
             } else {
@@ -599,9 +579,7 @@
             }
         });
 
-        // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
-            // Show initial animations for home page
             setTimeout(() => {
                 const elements = document.querySelectorAll('#home .fade-in');
                 elements.forEach((el, index) => {
@@ -611,7 +589,6 @@
                 });
             }, 500);
 
-            // Add scroll effect for better UX
             window.addEventListener('scroll', function() {
                 const elements = document.querySelectorAll('.fade-in:not(.visible)');
                 elements.forEach(el => {
@@ -625,3 +602,4 @@
     </script>
 </body>
 </html>
+
